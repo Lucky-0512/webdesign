@@ -1,0 +1,83 @@
+**Detailed Design Prompt for Landing Page Creation**
+
+---
+
+**1. Hero Section**  
+- **Background**: Dark gradient (#0F0F0F to #2A2A2A) with subtle hexagonal patterns in a slightly lighter gray (#3A3A3A at 10% opacity).  
+- **Text**:  
+  - **Main Heading**: "Innovating Your Digital Presence" in bold, uppercase, sans-serif font (e.g., **Poppins ExtraBold**), font size 64px, gradient text (linear gradient: #00FFE0 to #00B4FF).  
+  - **Subheading**: "As a Forward-Thinking Digital Partner, We Specialize in Creative Solutions" in light gray (#E0E0E0), font size 24px, Poppins Medium, centered below the main heading.  
+  - **Tagline**: "We Provide the Best Service for Your Brand." in white (#FFFFFF), font size 20px, Poppins Regular, italic.  
+- **Animation**: Fade-in slide-up effect on page load (0.5s delay). Gradient text pulsates gently (2s loop).  
+
+---
+
+**2. Value Proposition Section**  
+- **Layout**: Centered, full-width section with a semi-transparent overlay (radial gradient: #1A1A1A to transparent).  
+- **Text**:  
+  - **Headline**: "Crafting Impactful Solutions Tailored to You." in white (#FFFFFF), Poppins SemiBold, 36px.  
+  - **Statistic**: Large "28" in neon cyan (#00FFE0), font size 120px, Roboto Black, with a subtle glow effect (drop-shadow: 0 0 20px #00FFE0).  
+  - **Caption**: "Successful Projects Delivered" in light gray (#CCCCCC), Poppins Regular, 18px, below the number.  
+- **Animation**: Number "28" increments from 0 to 28 on scroll (2s duration).  
+
+---
+
+**3. Impact & Innovation Section**  
+- **Background**: Diagonal split—left side dark gray (#1A1A1A), right side abstract geometric animation (lines and dots in #00FFE0 animated to flow diagonally).  
+- **Text**:  
+  - **Heading**: "Showcasing Our Impact and Innovation" in white, Poppins Bold, 42px.  
+  - **Subheading**: "Discover How We've Helped Our Clients Achieve Their Goals." in light gray (#CCCCCC), Poppins Regular, 20px.  
+- **Content**:  
+  - Three client case study cards with hover effects (tilt + shadow). Each card includes a client logo, brief summary, and "View Case Study" button.  
+- **Animation**: Cards slide in from the right on scroll.  
+
+---
+
+**4. Services Section**  
+- **Background**: Solid #2A2A2A with a grid of dotted lines (#4A4A4A).  
+- **Text**:  
+  - **Headline**: "Our Expertise" in gradient text (same as hero), Poppins ExtraBold, 48px.  
+  - **Services**: Displayed in 4 cards (corrected from typos in the original):  
+    1. **Digital Marketing & Development**  
+    2. **UI/UX Design**  
+    3. **Brand Identity**  
+    4. **Event Activation**  
+  - Each service card includes an icon (minimalist line style in #00FFE0), title in white (Poppins SemiBold, 24px), and a short description in light gray.  
+- **Interaction**: Cards scale up (1.05x) and show a cyan border on hover.  
+
+---
+
+**5. Updates Section (Footer)**  
+- **Background**: Dark gray (#0F0F0F) with a diagonal stripe pattern in #00FFE0 at 5% opacity.  
+- **Text**:  
+  - **Heading**: "Stay Updated With Our Latest Articles and Insights." in white, Poppins SemiBold, 32px.  
+  - **CTA**: Email input field (rounded corners, placeholder: "Enter your email...") and a "Subscribe" button (gradient: #00FFE0 to #00B4FF).  
+- **Animation**: Input field expands on focus; button glows on hover.  
+
+---
+
+**Global Styling**:  
+- **Fonts**:  
+  - Primary: **Poppins** (headings and buttons).  
+  - Secondary: **Roboto** (body text and stats).  
+- **Colors**:  
+  - Primary: Cyan (#00FFE0), Dark Gray (#1A1A1A).  
+  - Secondary: Blue (#00B4FF), Light Gray (#CCCCCC).  
+- **Spacing**: Consistent 80px padding between sections.  
+- **Responsiveness**: Mobile-optimized with collapsible menus and stacked cards.  
+
+---
+
+**Animations**:  
+- **Scroll-triggered**: Fade-in effects for all text and cards.  
+- **Hover Effects**: Glowing buttons, scaling service cards.  
+- **Parallax**: Subtle background movement on scroll for the hero section.  
+
+**Additional Notes**:  
+- Include a fixed navigation bar with logo (minimalist, cyan accent) and menu items.  
+- Add smooth scroll behavior and a "Back to Top" button (floating, cyan circle).  
+- Ensure all interactive elements have accessibility labels.  
+
+--- 
+
+This prompt ensures a modern, dynamic design aligned with the provided content, emphasizing clarity, engagement, and brand consistency.
